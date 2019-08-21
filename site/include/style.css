@@ -1,0 +1,185 @@
+/*==============RESET==================*/
+* {margin: 0;padding: 0;font-size: 100%;border:none; outline: none; font-weight: 300px; box-sizing: border-box; font-family: 'Open Sans', sans-serif;}
+body{background-color: #fefefe;}	
+a {text-decoration: none;}
+ul {list-style: none;}
+img {max-width: 100%;}
+/*=============CONTAINER=============*/
+.container{width: 100%; float: left; text-align: center;}
+/*============BACKGROUND==========*/
+.bg-sapphire{background-color: #208187;}
+.bg-emerald{background-color:#82aa8f}
+/*============MENU==========*/
+.btn-menu{width: 70px;height: 70px;float: right;text-align: center;border-radius: 10px;color: #82aa8f;cursor: pointer;color: #fff;border-style: solid;border-color: #fff;margin: 1% 2% 1% 0%;background-color: #82aa8f;}
+.btn-close{width: 70px;height: 70px;float: left;color: #fff;cursor: pointer;margin: 2% 0% 1% 5%}
+.menu{display: none;width: 100%;position: fixed;background-color: #82aa8f;top: 0;left: 0;}
+.logo{color:#fff;float: left;margin: 5% 0 1% 5%;font-size: 1.5em;}
+.menu ul{width: 100%;float: left;text-align: center;}
+.menu li{padding: 4% 2% 2% 2%;}
+.menu li a{font-size: 2em;color:#fefefe}
+.menu li a:hover{border:1px;solid:#fefefe;}
+.menu i{color: #fff;}
+
+/*=========BANNER-CHAMADA========*/
+.banner-chamada {margin: 0% 0% 0% 0%;background-image: url(bannerjustice.jpg);background-position: center;background-size: cover;}
+.title{width: 100%;text-align:justify;text-align: center;padding: 2% 0% 2% 0%;}
+.title h1{font-size: 3em; color: #fff; font-weight: 700;}
+.title h2{display: none;font-size: 1em; color: #fff; font-weight: 500;}
+.title h3{font-size: 1.5em; color: #fff;font-weight: 400;}
+.buttons{width: 100%;float: left;}
+.btn-listagem{text-align: center; padding: 1.5% 11%; margin: 5%;border-radius: 2px;background-color: transparent;border-color: #fff;border-style: solid;}
+.btn-listagem:hover{background-color:#208187;}
+.btn-advogado{text-align: center; padding: 1.5% 11%; margin: 5%;border-radius: 2px;background-color: transparent;border-color: #fff;border-style: solid;}
+.btn-advogado:hover{background-color: #82aa8f;}
+.btn-reclamante{text-align: center; padding: 1.5% 10%; margin: 5%;border-radius: 2px;background-color: transparent;border-color: #fff;border-style: solid;}
+.btn-reclamante:hover{background-color:#208187;}
+
+/*========conteúdo=========*/
+.processos{width: 100%; text-align:center;}
+.processos img{padding: 0% 5% 0 5%;width:90%}
+.processos h1{padding: 10% 5% 1% 4%; text-align: center; font-size: 2em;color: #13212a;}
+.processos article{padding: 2% 10% 7% 10%;}
+.processos p{font-size: 1em;padding:10px 10px;}
+
+/*========artigos=========*/
+.articles{margin:5% 20% 5% 20%;text-align: left;}
+.titulo-article{padding: 2%;}
+.titulo-article hr{height: 12px;border: 0;box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);}
+.titulo-article h2{font-size: 2em;}
+
+/*========bannerdeclaracao==========*/
+.banner-declaracao{width: 100%;background-image: url(law-banner.jpg);background-position: center;background-size: cover;}
+.declaracao{padding: 20px 40px;}
+.declaracao h2{font-size: 2em;padding: 5px;color: #ffffff;font-weight: 700px;}
+
+/*========perguntas==========*/
+.perguntas{width: 100%;padding: 10% 0% 10% 0%;}
+
+/*========CustosXBeneficios==========*/
+.custoxbeneficio{width: 100%;}
+.custoxbeneficio article{padding: 2% 5% 7% 5%;}
+.custoxbeneficio h1{text-align: center;font-size: 2em;padding: 5% 0% 2% 0%;}
+.custoxbeneficio h2{text-align: left;font-size: 2em;padding: 5% 0% 2% 0%;}
+.custoxbeneficio h3{text-align: left;font-size: 1.5em;}
+
+
+/*========rodape==========*/
+.rodape{width: 100%; height: auto;background-color: #82aa8f;text-align: center;}
+.rodape section{padding: 2% 0% 2% 0%;}
+.rodape h2{color: #fff; font-size: 1.5em;}
+.rodape h3{color: #fff;font-size: 1.5em;padding: 5px 5px 5px 5px;}
+.rodape i{color: #fff;padding: 5px 20px;}
+
+
+
+
+/* SMALL DEVICES - TABLETS*/
+@media screen and (min-width: 640px){
+.custoxbeneficio article{padding: 2% 0% 7% 20%;}
+
+}
+
+
+
+/* SMALL DEVICES - TABLETS*/
+@media screen and (min-width: 768px){
+.logo{color:#fff;float: left;margin: 4% 0 2% 5%;font-size: 1.5em;}
+.processos p{font-size: 1em;padding:10px 10px;}
+.custoxbeneficio article{padding: 2% 0% 7% 25%;}
+
+}
+
+/* MEDIUM DEVICES - TABLETS & DESKTOPS*/
+@media screen and (min-width: 960px) {
+.logo{color:#fff;float: left;margin: 4% 0 2% 5%;font-size: 2em;}
+.btn-menu{display: none;}
+.btn-close{display: none;}
+.menu{display: block;position: fixed;}
+.menu li{margin:0;display:inline-block;}
+.menu li a{font-size: 1.5em;color:#fefefe;}
+.title{width: 100%; text-align:center;float: left;padding: 2% 5% 0% 5%;}
+.title h3{display: block;}
+
+.processos img{padding: 0% 5% 0 5%;width:70%}
+.processos article{padding: 2% 2% 7% 7%;width:45%;float: left;}
+.processos h1{padding: 10% 5% 1% 4%; text-align: center; font-size: 2.5em;color: #13212a;}
+.processos p{font-size: 1em;padding:10px 30px;}
+.custoxbeneficio article{padding: 2% 0% 7% 7%;width: 48%;float: left;}
+.custoxbeneficio article:nth-child(2){margin-left:1%;}
+.custoxbeneficio article:nth-child(3){margin-left:0%;}
+.rodape section{padding: 2% 2% 2% 2%;float: left;}
+
+}
+
+/* LARGE DEVICES - TABLETS & DESKTOPS*/
+@media screen and (min-width: 1200px) {
+.logo{color:#fff;float: left;margin: 2% 0 2% 5%;font-size: 2em;}
+.btn-menu{display: none;}
+.btn-close{display: none;}
+.menu{display: block;position: fixed;}
+.menu li{margin:0;display:inline-block;padding: 2% 2% 2% 2%;}
+
+
+.processos{width: 100%; text-align:center;margin:20px 0px 20px 0px;}
+.processos img{padding: 0% 5% 0 5%;}
+.processos article{padding: 2% 2% 7% 2%;width:33%;float: left;}
+.processos h1{padding: 10% 5% 1% 4%; text-align: center; font-size: 2.5em;color: #13212a;}
+.custoxbeneficio article{padding: 2% 0% 7% 0%;width: 35%;float: left;}
+.custoxbeneficio article:nth-child(2){margin-left:15%;}
+.custoxbeneficio article:nth-child(3){margin-left:8%;}
+.rodape section{padding: 2% 2% 2% 7%;float: left;}
+
+}
+
+/* LARGE DEVICES - TABLETS & DESKTOPS*/
+@media screen and (min-width: 1366px) {
+.logo{color:#fff;float: left;margin: 2% 0 2% 5%;font-size: 2em;}
+.btn-menu{display: none;}
+.btn-close{display: none;}
+.menu{display: block;position: fixed;}
+.menu li{margin:0;display:inline-block;padding: 2% 2% 2% 2%;}
+
+.title{text-align:justify;float: left;padding: 5% 0% 5% 0%;}
+.title:nth-child(1){margin-left:10%;width: 40%;margin-top: 2%;}
+.title:nth-child(2){margin-left:8%;width: 30%;}
+.title h2{display: block;font-size: 1em; color: #fff; font-weight: 400;}
+.buttons{width: 100%;}
+.processos{width: 100%; text-align:center;margin:20px 0px 20px 0px;}
+.processos img{padding: 0% 5% 0 5%;}
+.processos article{padding: 2% 2% 7% 2%;width:33%;float: left;}
+.processos h1{padding: 10% 5% 1% 4%; text-align: center; font-size: 2.5em;color: #13212a;}
+.processos p{font-size: 1em;padding:10px 30px;}
+.custoxbeneficio article{padding: 2% 0% 7% 0%;width: 35%;float: left;}
+.custoxbeneficio article:nth-child(2){margin-left:20%;}
+.custoxbeneficio article:nth-child(3){margin-left:0%;}
+.rodape section{padding: 2% 2% 2% 7%;float: left;}
+
+}
+
+
+/* LARGE DEVICES - TABLETS & DESKTOPS*/
+@media screen and (min-width: 1500px) {
+.logo{color:#fff;float: left;margin: 2% 0 2% 5%;font-size: 2em;}
+.btn-menu{display: none;}
+.btn-close{display: none;}
+.menu{display: block;position: fixed;}
+.menu li{margin:0;display:inline-block;padding: 2% 2% 2% 2%;}
+.menu li a{font-size: 2em;color:#fefefe;}
+.title{text-align:justify;float: left;padding: 2% 0% 2% 0%;}
+.title:nth-child(1){margin-left:15%;}
+.title:nth-child(2){margin-left:12%;}
+
+.title h2{display: block;}
+.buttons{width: 100%;}
+.processos{width: 100%; text-align:center;margin:20px 0px 20px 0px;}
+.processos img{padding: 0% 5% 0 5%;}
+.processos article{padding: 2% 2% 7% 2%;width:33%;float: left;}
+.processos h1{padding: 10% 5% 1% 4%; text-align: center; font-size: 2.5em;color: #13212a;}
+.custoxbeneficio article{padding: 0% 0% 7% 0%;width: 30%;float: left;}
+.custoxbeneficio article:nth-child(2){margin-left:25%;}
+.custoxbeneficio article:nth-child(3){margin-left:0%;}
+.rodape section{padding: 2% 2% 2% 7%;float: left;}
+
+
+
+}
